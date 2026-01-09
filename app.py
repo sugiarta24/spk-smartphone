@@ -5,7 +5,7 @@ from topsis import topsis
 
 st.title("SPK Pemilihan Smartphone Terbaik")
 
-df = pd.read_csv("dataset_smartphone.csv", encoding="ISO-8859-1")
+df = pd.read_csv("dataset_smartphone.csv")
 st.dataframe(df)
 
 st.subheader("Bobot Kriteria (AHP)")
